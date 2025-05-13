@@ -1,0 +1,19 @@
+[project]
+name = "genix"
+version = "0.1.0"
+description = "AI-powered command-line interpreter"
+authors = [{ name = "Jeanmarco Allain", email = "jallain99@outlook.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "click>=8.1.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0.0",
+    "llama-cpp-python>=0.2.0",
+    "requests>=2.28.0",
+]
+
+[project.scripts]
+genix = "genix.cli:main"
+
+[tool.black]
+line-length = 88
