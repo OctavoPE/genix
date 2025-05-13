@@ -1,5 +1,4 @@
 import subprocess
-import os
 
 
 def execute_command(command: str) -> None:
