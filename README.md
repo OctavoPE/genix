@@ -7,7 +7,7 @@ Genix translates natural language commands (e.g., `genix set up new repo`) into 
 ```bash
 pip install genix
 genix set up new repo
-
+```
 
 ## Features
 
